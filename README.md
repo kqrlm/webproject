@@ -14,3 +14,5 @@ A single CV website built using HTML
 
 1. Download the project.
 2. Open index.html in your browser.
+
+https://roadmap.sh/projects/single-page-cv
