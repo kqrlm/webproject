@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Karl's simple website as a Junior Developer.">
+    <meta name="author" content="Karl">
+    <title>Karl's Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+ 
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">
+                <a href="#">
+                    <img src="images/laptop.png" width="50" alt="Logo" class="brand-logo">
+                    <span class="brand-name">KARL</span>
+                </a>
+            </div>
+ 
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+ 
+            <ul id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+ 
+        <section class="home" id="home">
+            <div class="hero-badge">Available for opportunities</div>
+            <h1 class="hero-title">Junior <span style="color:#7F77DD">Web Developer</span></h1>
+            <p class="hero-sub">Building clean, functional websites with HTML, CSS, and a whole lot of curiosity.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+            </div>
+        </section>
+    </header>
+ 
+    <main>
+ 
+        <!-- PROJECTS -->
+        <section class="projects" id="projects">
+            <p class="section-tag">Work</p>
+            <h3>Projects</h3>
+            <p class="section-sub">Things I've built while learning</p>
+ 
+            <div class="projects-grid">
+                <div class="proj-card">
+                    <div class="proj-icon icon-purple">📄</div>
+                    <h4>Simple CV Project</h4>
+                    <p>A clean, structured resume layout built with HTML and CSS.</p>
+                    <span class="proj-tag">HTML · CSS</span>
+                </div>
+                <div class="proj-card">
+                    <div class="proj-icon icon-teal">🔢</div>
+                    <h4>Calculator</h4>
+                    <p>Functional calculator with arithmetic operations using JavaScript.</p>
+                    <span class="proj-tag">HTML · CSS · JS</span>
+                </div>
+                <div class="proj-card">
+                    <div class="proj-icon icon-coral">⏱</div>
+                    <h4>Countdown Timer</h4>
+                    <p>Event countdown with a live ticking display.</p>
+                    <span class="proj-tag">HTML · CSS · JS</span>
+                </div>
+                <div class="proj-card">
+                    <div class="proj-icon icon-blue">🛍</div>
+                    <h4>Product Upcoming Page</h4>
+                    <p>A product teaser landing page with a coming-soon layout.</p>
+                    <span class="proj-tag">HTML · CSS</span>
+                </div>
+            </div>
+        </section>
+ 
+        <!-- WORK EXPERIENCE -->
+        <div class="work-experience" id="experience">
+            <p class="section-tag">Experience</p>
+            <h3>Work Experience</h3>
+            <p class="section-sub">Where I've contributed</p>
+ 
+            <div class="exp-card">
+                <div class="exp-avatar">
+                    <i class="fa-solid fa-briefcase"></i>
+                </div>
+                <div>
+                    <h4>OJT — Talent Acquisition</h4>
+                    <p class="exp-company">VXI Global Solutions</p>
+                    <p>Maintained accurate records of customer interactions and service requests.</p>
+                    <p>Collaborated with team members to ensure efficient and satisfactory customer support.</p>
+                    <a target="_blank" href="https://www.linkedin.com/in/karlo-melgar-4a403133a/">
+                        <i class="fa-brands fa-linkedin"></i> View on LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+ 
+        <!-- EDUCATION -->
+        <div class="education" id="education">
+            <p class="section-tag">Education</p>
+            <h3>Education</h3>
+            <p class="section-sub">My academic background</p>
+ 
+            <div class="edu-list">
+                <div class="edu-card">
+                    <h4>University of Mindanao</h4>
+                    <p class="edu-course">Bachelor of Science in Information Technology</p>
+                    <p class="edu-year">Present — Incoming 1st Year</p>
+                </div>
+                <div class="edu-card">
+                    <h4>Philippine Women's College of Davao</h4>
+                    <p class="edu-course">Information Communications Technology</p>
+                    <p class="edu-year">2024 – 2026</p>
+                    <p>Developed basic websites using HTML and CSS.</p>
+                    <p>Completed ICT-related projects and research presentations.</p>
+                </div>
+            </div>
+        </div>
+ 
+        <!-- CONTACT -->
+        <div class="contact-page" id="contact">
+            <div class="hero">
+                <p class="section-tag">Contact</p>
+                <h3>Get in Touch</h3>
+                <p>Have a question? Fill out the form and I'll get back to you within 24 hours.</p>
+            </div>
+ 
+            <div class="layouts">
+                <div class="info-card">
+                    <h2>Reach Me</h2>
+ 
+                    <div class="info-item">
+                        <div class="info-label">Address</div>
+                        <div class="info-value">Barangay 19-B<br>Davao City 8000</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">Phone</div>
+                        <div class="info-value">(+63) 9916667321</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">Email</div>
+                        <div class="info-value">hi@gmail.com</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">Office Hours</div>
+                        <div class="info-value">Mon – Fri, 9am – 6pm</div>
+                    </div>
+                </div>
+ 
+                <div class="contact forms">
+                    <h3>Message Me</h3>
+ 
+                    <div class="form-rows">
+                        <div class="field">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" placeholder="John">
+                        </div>
+                        <div class="field">
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" placeholder="Doe">
+                        </div>
+                        <div class="email-ad">
+                            <label for="mail">Email</label>
+                            <input type="email" id="mail" placeholder="hi@gmail.com">
+                        </div>
+                        <div class="text-message">
+                            <label for="msg">Message</label>
+                            <textarea id="msg" placeholder="Write your message here..."></textarea>
+                        </div>
+                        <div>
+                            <button class="btn submit" onclick="submitForm()">Send Message</button>
+                            <div class="success" id="success" style="display:none;">Message sent!</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+    </main>
+ 
+    <footer>
+        <p>© 2025 Karl · Junior Web Developer</p>
+        <div class="footer-links">
+            <a href="https://www.linkedin.com/in/karlo-melgar-4a403133a/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/kqrlm">GitHub</a>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+
+</body>
+</html>
