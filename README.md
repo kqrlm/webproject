@@ -9,13 +9,12 @@ A personal portfolio website built with HTML, CSS, and JavaScript.
 
 ## Tech Stack
 - HTML5
-- CSS3
-- JavaScript (Vanilla)
+- CSS
+- JavaScript
 - Font Awesome icons
-- Formspree (contact form)
-
-## Live Site
-Coming soon
 
 ## Author
-Karl Melgar" > README.md
+Karl Melgar
+
+https://roadmap.sh/projects/basic-html-website
+
