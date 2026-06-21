@@ -10,9 +10,8 @@ A single CV website built using HTML
 - LinkedIn and GitHub links
 - Favicon
 
-## How to Run
+## click this link to view the CV
+https://single-page-cv-kqrl.vercel.app/
 
-1. Download the project.
-2. Open index.html in your browser.
 
 https://roadmap.sh/projects/single-page-cv
