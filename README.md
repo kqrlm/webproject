@@ -17,7 +17,5 @@ A personal portfolio website built with HTML, CSS, and JavaScript.
 Karl Melgar
 
 https://roadmap.sh/projects/basic-html-website
-
-
-webproject-xi-eight.vercel.app
+https://webproject-xi-eight.vercel.app/
 
