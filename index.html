@@ -153,33 +153,45 @@
                         <div class="info-value">Mon – Fri, 9am – 6pm</div>
                     </div>
                 </div>
- 
+
+               <form action="https://api.web3forms.com/submit" method="POST">
+
+                <input type="hidden" name="access_key" value="a87c62c0-50f5-486e-b9b8-e93574947e0b">
+
                 <div class="contact forms">
                     <h3>Message Me</h3>
- 
+
                     <div class="form-rows">
-                        <div class="field">
-                            <label for="fname">First Name</label>
-                            <input type="text" id="fname" placeholder="John">
-                        </div>
-                        <div class="field">
-                            <label for="lname">Last Name</label>
-                            <input type="text" id="lname" placeholder="Doe">
-                        </div>
-                        <div class="email-ad">
-                            <label for="mail">Email</label>
-                            <input type="email" id="mail" placeholder="hi@gmail.com">
-                        </div>
-                        <div class="text-message">
-                            <label for="msg">Message</label>
-                            <textarea id="msg" placeholder="Write your message here..."></textarea>
-                        </div>
-                        <div>
-                            <button class="btn submit" onclick="submitForm()">Send Message</button>
-                            <div class="success" id="success" style="display:none;">Message sent!</div>
-                        </div>
+                    <div class="field">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="first_name" placeholder="John" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="last_name" placeholder="Doe" required>
+                    </div>
+
+                    <div class="email-ad">
+                        <label for="mail">Email</label>
+                        <input type="email" id="mail" name="email" placeholder="hi@gmail.com" required>
+                    </div>
+
+                    <div class="text-message">
+                        <label for="msg">Message</label>
+                        <textarea id="msg" name="message" placeholder="Write your message here..." required></textarea>
+                    </div>
+
+                    <div>
+                        <button class="btn submit" type="submit">Send Message</button>
+                        <div class="success" id="success" style="display:none;">Message sent!</div>
+                    </div>
                     </div>
                 </div>
+
+                </form>
+
+
             </div>
         </div>
  
