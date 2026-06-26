@@ -29,6 +29,7 @@ form.addEventListener('submit', async function(e) {
         document.getElementById('success').style.display = 'block';
         form.reset(); 
     } else {
-        alert('Something went wrong. Please try again.');
+        const data = await response.json();
+        alert('Error: ' + data.message);
     }
 });
